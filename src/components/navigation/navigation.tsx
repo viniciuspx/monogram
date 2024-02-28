@@ -1,37 +1,38 @@
-import Link from "next/link";
+"use client";
 import { SlBag } from "react-icons/sl";
+import { LinkItem } from "../link/link";
 
 export const CreateNavigation = () => {
   return (
     <div className="my-auto text-[0.8rem] flex flex-row">
-      <Link href={"/"} className="m-4 hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68]"}>
         HOW IT WORKS
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68]"}>
         WORKFLOWS ▼
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68]"}>
         DOWNLOAD
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68]"}>
         BLOG
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68]"}>
         SUPPORT
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 font-bold hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 hover:text-[#ff8b68] font-bold"}>
         SHOP
-      </Link>
+      </LinkItem>
 
-      <Link href={"/"} className="m-4 flex flex-row hover:text-[#ff8b68]">
+      <LinkItem path={"/"} className={"m-4 flex flex-row hover:text-[#ff8b68]"}>
         <SlBag className="text-[24px]" />
         <span className="ml-2">USD ▼</span>
-      </Link>
+      </LinkItem>
     </div>
   );
 };

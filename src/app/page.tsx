@@ -7,7 +7,6 @@ import { CreateNavbar } from "@/components/navbar/navbar";
 export default function Home() {
   return (
     <main className="">
-      <CreateNavbar />
       <CreateHeader />
       <CreateCustom text={"Custom 1"} />
       <CreateBarOne />
