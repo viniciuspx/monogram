@@ -11,20 +11,20 @@ export default function Home() {
       <CreateNavbar />
       <CreateHeader />
       <CreateCustom>
-        <ProductDisplay className={"w-[550px] h-[430px]"} />
-        <ProductDisplay className={"w-[550px] h-[430px]"} />
-        <ProductDisplay className={"w-[550px] h-[430px]"} />
-        <ProductDisplay className={"w-[550px] h-[430px]"} />
+        <ProductDisplay className={"w-[550px] h-[430px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"w-[550px] h-[430px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"w-[550px] h-[430px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"w-[550px] h-[430px]"} productName={"Cheese"} productPrice={"$1.99"}/>
       </CreateCustom>
       <CreateBarOne />
       <CreateCustom>
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
-        <ProductDisplay className={"h-[390px] w-[370px]"} />
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
+        <ProductDisplay className={"h-[390px] w-[370px]"} productName={"Cheese"} productPrice={"$1.99"}/>
       </CreateCustom>
       <CreateFooter />
     </main>
